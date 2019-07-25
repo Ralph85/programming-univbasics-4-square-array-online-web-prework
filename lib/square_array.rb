@@ -1,9 +1,9 @@
-def square_array(array)
-  Enumerator.new do |y|
-    array.while { |e| y << e ** 2}
-  end
-  .take(array.length)
-end
+numbers = [1, 2, 3]
 
-my_arr = [1, 2, 3]
-p square_array(my_arr)
+def square_array(array)
+  i = 0
+  while i < numbers.length
+
+    i **= 2
+    puts numbers[i]
+end
