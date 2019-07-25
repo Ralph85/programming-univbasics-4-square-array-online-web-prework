@@ -1,6 +1,5 @@
-numbers = [1, 2, 3]
-
 def square_array(array)
+  numbers = [1, 2, 3]
   i = 0
   while i < numbers.length
     puts i
