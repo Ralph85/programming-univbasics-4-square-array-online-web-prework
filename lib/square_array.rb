@@ -4,7 +4,5 @@ def square_array(array)
   while i < numbers.length
     puts i
     puts numbers[i]
-    i **= 2
+    i ** 2
 end
-
-numbers = [1, 2, 3]
